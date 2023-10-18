@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "53E5T+oEOWRw4jK4IMYk8l3fm4ULu9G7IR3ESv5vc+4=",
+  "Source": "fechas",
+  "BasePath": "_content/fechas",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "fechas\\wwwroot",
+      "Source": "fechas",
+      "ContentRoot": "C:\\Users\\pablo\\Desktop\\bootcamp coding dojo\\Fundamentos-de-la-web-SONDA-Semtiembre-2023\\Semana 6\\Día 4\\fechas\\wwwroot\\",
+      "BasePath": "_content/fechas",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\pablo\\Desktop\\bootcamp coding dojo\\Fundamentos-de-la-web-SONDA-Semtiembre-2023\\Semana 6\\Día 4\\fechas\\wwwroot\\css\\style.css",
+      "SourceId": "fechas",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pablo\\Desktop\\bootcamp coding dojo\\Fundamentos-de-la-web-SONDA-Semtiembre-2023\\Semana 6\\Día 4\\fechas\\wwwroot\\",
+      "BasePath": "_content/fechas",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    }
+  ]
+}

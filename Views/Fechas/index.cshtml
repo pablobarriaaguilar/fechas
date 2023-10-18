@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    @{
+        DateTime CurrentTime = DateTime.Now;
+        DateTime FinalTime = new DateTime(2023, 11, 1, 8, 30, 52);
+        <div class="contenedor"> <div class="contenedorstart"><h1>Start Time</h1>
+       
+        <h1>@CurrentTime.ToString("MMM dd, yyyy HH:mm tt")</h1></div>
+        <div class="contenedorend"> <h1>End Time</h1>
+        <h1>@FinalTime.ToString("MMM dd, yyyy HH:mm tt")</h1></div></div>
+       
+        var TimeRemainingDays = (FinalTime-CurrentTime).TotalDays;
+        var TimeRemainingHours = (FinalTime-CurrentTime).TotalHours;
+        var TimeRemainingMinutes = (FinalTime-CurrentTime).TotalMinutes;
+
+       <div class="contenedorremain"> <h1>@Math.Floor(TimeRemainingDays) Days, @Math.Floor(TimeRemainingHours) Hours (s), @Math.Floor(TimeRemainingMinutes) Minute (s)</h1>
+        <h1>Remaining</h1></div> 
+
+
+    }
+</body>
+</html>

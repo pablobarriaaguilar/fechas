@@ -1,0 +1,20 @@
+.contenedor{
+    border-style: solid;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contenedorstart{
+    border-style: solid;
+    width: 200px;
+}
+
+.contenedorend{
+    border-style: solid;
+    width: 200px;
+}
+
+.contenedorremain{
+    display: flex;
+    justify-content: center;
+}
